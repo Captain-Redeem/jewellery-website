@@ -1,0 +1,46 @@
+/* we create our styles */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.main-area {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.cards {
+    background-color: #B81A0F;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: grey;
+    border: solid #000000 1px;
+    margin: 10px;
+    padding: 10px;
+    width: 450px;
+}
+
+.site-title{
+    text-align: center;
+}
+
+header{
+    background-color: #B81A0F;
+    height: 400px;
+}
+
+.summary {
+    border: solid #000000 2px;
+    padding: 5px;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin user management | Diamond Jewellery</title>
+    <meta name="description" content="Diamond Jewellery. Treasure of Jewellery"/>
+    <link rel="stylesheet"
+href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+integrity="sha384-
+fnm0CqbTlWIlj8LyTjo7mOUStjsKC4p0pQbqyi7RrhN7udi9RwhKkMHpvLbH695r"
+
+crossorigin="anonymous">
+   
+   
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="CSS/styles2.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    
+    <!--  JQuery and BootStrap JS --> 
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    
+    <!-- Bootstrap Validator JS -->
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
+    
+</head>
+<body>
+   <!-- ***************  Header ************* -->  
+    <header>
+        <center><img id="Logo" src="img/DJLogo.png"alt="Company Logo"/></center>
+        
+        <!-- ***************  Navigation bar ************* -->
+<nav class="navbar" id="Mynavbar">
+     <a href="adminusers.html" class="active">Admin User management</a>
+      <a href="users.html">User management</a>
+      <a href="products.html">Product management</a>
+    <a href="javscript:void((0);" class="icon"
+    onclick="navFunction()"><i class="fas fa-bars"></i></a>
+</nav>
+   <!-- ***************  navigation bar ************* -->
+   
+    </header><!-- ***************  Header ************* -->
+       <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+    <!-- ***************  Header ************* -->
+       
+         <h1>Admin user management</h1>
+         <hr/>
+         <br/>
+         <div  id="wrapper">
+         <table>
+  <tr>
+    <th>Username</th>
+    <th>Password</th>
+    <th>Email address</th>
+    <th>Address</th>
+    <th>Job role</th>
+    <th>Contact number</th>
+  </tr>
+  <tr>
+    <td>admin</td>
+    <td>Password</td>
+    <td>admin25@Outlook.com</td>
+    <td>29 Gisburn Rd
+Wakefield
+WF1 4JF</td>
+    <td>Administrator</td>
+    <td>0113 845861</td>
+  </tr>
+  <tr>
+    <td>Co-worker5465</td>
+    <td>Colleague</td>
+    <td>Co-worker@Outlook.com</td>
+    <td>21 Garsdale Grove
+Wakefield
+WF1 4SA</td>
+    <td>Production admin</td>
+    <td>07964 115475</td>
+  </tr>
+  <tr>
+    <td>JamesM5623</td>
+    <td>BMWMS</td>
+    <td>JMay56@Outlook.com</td>
+    <td>20 Garsdale Grove
+Wakefield
+WF1 4SA</td>
+    <td>Admin</td>
+    <td>08456 8666456</td>
+  </tr>
+  <tr>
+    <td>RHammond846</td>
+    <td>Jolie934</td>
+    <td>Richard25@Gmail.com</td>
+    <td>31 Dent Dr
+Wakefield
+WF1 4JG</td>
+    <td>Admin assistant</td>
+    <td>07499 8512</td>
+  </tr>
+  <tr>
+    <td>MBanner864</td>
+    <td>Hulk74</td>
+    <td>BruceTony54@Gmail.com</td>
+    <td>32 Garsdale Grove
+Wakefield
+WF1 4SA</td>
+    <td>Sales admin</td>
+    <td>0133 1851385</td>
+  </tr>
+  <tr>
+    <td>RDrahomir759</td>
+    <td>MetroLine43</td>
+    <td>RichardV1kt0R@gmail.com</td>
+    <td>54 Dent Dr
+Wakefield
+WF1 4JG</td>
+    <td>IT Admin</td>
+    <td>1331 4644541</td>
+  </tr>
+</table>
+  
+  <!-- Buttons --->
+   <aside class="buttons">
+   <input id="addUser" type="button" value="Add User"/>
+   <input id="editUser" type="button" value="Edit User"/>
+   <input id="deleteUser" type="button" value="Delete User"/>
+       <a href="adminlogin.html"><input id="logout" type="button" value="Logout"/></a>
+             </aside><!-- Buttons --->
+    </div>
+      
+      <Footer>
+        <p class= "Copyright">Copyright © 2021 Diamond Jewellery. All rights reserved</p>
+        <center><a href="https://www.instagram.com/?hl=en"><img class="SocialMedia" src="img/Instagram.jpg" alt ="Instagram"/></a>
+        <a href="https://en-gb.facebook.com/"><img class="SocialMedia" src="img/Facebook.png"/></a>
+        <a href="https://twitter.com/swarovski"><img class="SocialMedia" src="img/Twitter.png"/></a></center>
+    </Footer>
+       
+        <script>
+    function navFunction() {
+        var x = document.getElementById("Mynavbar");
+        if(x.className === "navbar"){
+            x.className += "responsive";
+        } else {
+            x.className = "navbar";
+        }
+    }
+        
+    </script>
+</body>
+</html>

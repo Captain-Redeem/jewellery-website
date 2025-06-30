@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Diamond Jewellery</title>
+    <meta name="description" content="Diamond Jewellery. Treasure of Jewellery"/>
+    <link rel="stylesheet"
+href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+integrity="sha384-
+fnm0CqbTlWIlj8LyTjo7mOUStjsKC4p0pQbqyi7RrhN7udi9RwhKkMHpvLbH695r"
+
+crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="CSS/styles2.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="wrapper">
+   <!-- ***************  Header ************* -->  
+       <header>
+           <center><a href='Index.html'><img id="Logo" src="img/DJLogo.png"alt="Company Logo"/></a></center>
+        
+        <!-- ***************  Navigation bar ************* -->
+<nav class="navbar" id="Mynavbar">
+  <a href="Index.html" class="active"><i class="fas fa-home"></i></a>
+      <a href="Watches.html">Watches</a>
+      <a href="Rings.html">Rings</a>
+      <a href="Earrings.html">Earrings</a>
+      <a href='Contactus.html'>Contact us</a>
+    <a href='Aboutus.html'>About us</a>
+    <a href="Admin/adminlogin.html">Admin</a>
+    <a href="javscript:void((0);" class="icon"
+    onclick="navFunction()"><i class="fas fa-bars"></i></a>
+</nav>
+   <!-- ***************  navigation bar ************* -->
+
+    </header><!-- ***************  Header ************* -->
+           <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+        
+        <h1>Home page</h1>
+        
+      <article id="membersadvert">Please <a href="login.html"><strong>click here</strong></a> to become a member and save 20% on our selected items!</article>
+        
+     <!-- ***************  Welcome slideshow ************* --> 
+        <center><div id="slider">
+            <figure>
+              <img src="img/Slideshow1.jpg" alt="Image of members discount">
+              <img src="img/Slideshow2.jpg" alt="Image of Watches">
+               <img src="img/Slideshow3.jpg" alt="Image of Rings">
+              <img src="img/Slideshow4.jpg" alt="Image of Earrings">
+                
+            </figure>
+        </div></center>
+  <!-- ***************  Welcome slideshow ************* -->
+        
+<hr/>
+       <h1>Shop by Category</h1>
+        
+
+
+    <!-- ***************  Product categories ************* -->
+    <section class="categories">
+    
+    <article class="ProductCat"><!-- ***************   Watches category ************* -->
+        <a href="Watches.html"
+        onmouseover="rollover('image01','img/WatchesCat.jpg')"
+        onmouseout="rollover('image01','img/watches%20category%202.jpg')">
+        <img id="WatchesCat" name="image01"
+        src="img/watches%20category%202.jpg" alt = "Watches page"></a>
+</article><!-- ***************  Watches category************* -->
+
+    <!-- ***************  Rings category************* -->
+        <article class="ProductCat">
+        <a href="Rings.html"
+        onmouseover="rollover('image02','img/RingsCat.jpg')"
+        onmouseout="rollover('image02','img/Ring%20catgory.jpg')">
+            <img id="RingsCat" name = "image02" src="img/Ring%20catgory.jpg" alt="Rings page"/></a>
+    </article>
+    <!-- ***************  Rings category************* -->
+    
+    <!-- ***************  Earrings category************* -->
+    <article class ="ProductCat">
+    <a href="Earrings.html"
+    onmouseover="rollover('image03','img/EarringsCat.jpg')"
+        onmouseout="rollover('image03','img/earring%20category.jpg')">
+    <img id="EarringsCat" name = "image03" src="img/earring%20category.jpg"alt="Earrings page"/></a>
+</article>
+<!-- ***************  Earrings category************* -->
+
+        </section><!-- ***************  Product categories ************* -->
+    
+    </div>
+    
+
+
+
+    <footer>
+        <p class="Copyright">Copyright © 2021 Diamond Jewellery. All rights reserved</p>
+       <center> <a href="https://www.instagram.com/?hl=en"><img class="SocialMedia" src="img/Instagram.jpg"/></a>
+        <a href="https://en-gb.facebook.com/"><img class="SocialMedia" src="img/Facebook.png"/></a>
+            <a href="https://twitter.com/swarovski"><img class="SocialMedia" src="img/Twitter.png"/></a></center>
+    </footer>
+    <!-- ***************  Navigation icons ************* -->
+    <script>
+    function navFunction() {
+        var x = document.getElementById("Mynavbar");
+        if(x.className === "navbar"){
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
+        }
+    }
+        
+    </script>
+    
+    
+    <!--- Script to create image rollover Watches -->  
+    <script type="text/javascript">
+     function rollover(img,url){
+         document.images[img].src=url;
+     }
+    </script>
+
+    
+</body>
+</html>
